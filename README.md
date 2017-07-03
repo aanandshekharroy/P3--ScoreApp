@@ -20,4 +20,4 @@ This project is developed for C3 Cyber Club and is aimed for kids aged between 6
 
 
 ### Screenshots
-![Screen 1](/assets/src.gif )
+![Screen 1](/src.gif )

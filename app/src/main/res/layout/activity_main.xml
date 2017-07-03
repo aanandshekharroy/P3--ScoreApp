@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.c3cyberclub.scorekeeper.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/fab_margin">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/team_a"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_title"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/team_b"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_title"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/fab_margin">
+
+            <TextView
+                android:id="@+id/team_a_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="@dimen/text_title_large"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hyphen"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_title_large"/>
+
+            <TextView
+                android:id="@+id/team_b_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_title_large"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/fab_margin">
+
+            <Button
+                android:id="@+id/plus_six_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_six"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/touchdown"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_normal"/>
+
+            <Button
+                android:id="@+id/plus_six_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_six"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/fab_margin">
+
+            <Button
+                android:id="@+id/plus_three_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_three"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/field_goal"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_normal"/>
+
+            <Button
+                android:id="@+id/plus_three_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_three"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/fab_margin">
+
+            <Button
+                android:id="@+id/plus_one_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_one"/>
+
+            <Button
+                android:id="@+id/plus_two_a"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_two"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/extra_point"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:padding="@dimen/dp_2"
+                android:textSize="@dimen/text_normal"
+                />
+
+            <Button
+                android:id="@+id/plus_one_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_one"/>
+
+            <Button
+                android:id="@+id/plus_two_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_two"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/fab_margin">
+
+            <Button
+                android:id="@+id/plus_two_a2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_two"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/safety"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_normal"/>
+
+            <Button
+                android:id="@+id/plus_two_b2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/plus_two"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reset"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@color/dark_grey"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</ScrollView>

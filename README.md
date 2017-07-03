@@ -1,5 +1,5 @@
-## My Business Page
-This project is developed for C3 Cyber Club and is aimed for kids aged between 6-14 years, it teaches how to use UI elements get and set values and how to implement buttons and click listeners on a button. It also touches on the concept of LogCat as a debugging tool.
+## Score Keeper App
+This project is developed for C3 Cyber Club and is aimed for kids aged between 6-14 years, it teaches how to use UI elements to get and set values and how to implement buttons and click listeners on a button. It also touches on the concept of LogCat as a debugging tool.
 
 ### Requirements
 * Android Studio
